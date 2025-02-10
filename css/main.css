@@ -1,0 +1,64 @@
+@font-face {
+    font-family: Red_Hat_Text;
+    src: url(/assets/fonts/static/RedHatText-Bold.ttf);
+}
+@font-face {
+    font-family: Red_Hat_Text2;
+    src: url(/assets/fonts/static/RedHatText-SemiBold.ttf);
+}
+@font-face {
+    font-family: Red_Hat_Text3;
+    src: url(/assets/fonts/RedHatText-VariableFont_wght.ttf);
+}
+
+
+.main-container {
+    display: grid;
+    grid-template-columns: minmax(0, 3fr) minmax(0, 1fr);
+    overflow: hidden;
+    width: 100%;
+    max-width: 1800px;
+}
+
+
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100px, 1fr));
+    grid-template-rows: auto 1fr;
+}
+
+@media screen and (max-width: 1300px) {
+    .product-container {
+        grid-template-columns: repeat(2, minmax(100px, 1fr));
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .main-container {
+        grid-template-columns: 1fr;
+    }
+    .product-container {
+        grid-template-columns: repeat(1, minmax(100px, 1fr));
+    }
+    .cart_container {
+        margin: auto;
+        width: 80%;
+    }
+}
+
+
+.product-booking {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+}
+
+.calculateOrderPrice {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.btn-confirm {
+    background: rgb(199, 58, 15);
+    color: rgb(255, 255, 255);
+}

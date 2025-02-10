@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="css/main.css">
+
+  <script src="tailwind js file/script.js"></script>
+  <script src="tailwind js file/config.js"></script>
+  <script src="js/index.js" defer></script>
+  <title>Frontend Mentor | Product list with cart</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>	
+<body class="bg-Rose50 flex items-center justify-center mt-[60px]">
+  
+  
+  <div class="main-container">
+
+    <div class="containerTitleAndProduct flex flex-col">
+
+      
+  <div class="h1Parent flex mb-[20px]">
+        <h1 class="h1El font-Red_Hat_Text text-[30px] m-auto w-[80%] bg-[gray] text-center">Desserts</h1>
+    </div>
+
+
+    <div class="product-container">
+      
+    
+  </div>  
+    
+  </div>
+  
+  
+ <!-- <div class="cart_container min-h-[100px] max-h-[400px] p-[30px] bg-white space-y-[30px] mr-[50px]">
+    <p class="text-RedColor font-bold font-Red_Hat_Text text-[1.5rem]">Your Cart (0)</p>
+    <img src="assets/images/illustration-empty-cart.svg" alt="">
+      <p class="text-Rose400 font-Red_Hat_Text3 text-center">Your added items will appear here</p>
+    </div>  -->
+
+
+    <div class="flex justify-center">
+      <div
+        class="cart_container min-h-[100px] max-h-[300px] p-[30px] bg-white space-y-[30px] shadow-lg rounded-lg w-[90%] sm:w-[400px]"
+      >
+      
+
+      <div class="beforeAddToCatClocked space-y-[30px]">
+        <p class="text-RedColor font-bold text-[1.7rem] text-left">
+          Your Cart (0)
+        </p>
+        <img
+          src="assets/images/illustration-empty-cart.svg"
+          alt="Empty Cart"
+          class="mx-auto"
+        />
+        <p class="text-Rose400 text-center">
+          Your added items will appear here 
+        </p> 
+      </div>
+
+
+
+       <div class="cartContainerWhenAddToCartClicked space-y-[30px] hidden">
+    <p class="text-RedColor font-bold text-[1.7rem] text-left">
+          Your Cart (0)
+      </p>
+      <ul class="ulElem">
+        
+      </ul>
+      <div class="calculateOrderPrice mt-[10px]">
+        <div class="orederTotal flex justify-start items-center">
+        <span class="text-Rose900 font-Red_Hat_Text2 capitalize">order total</span>
+      </div>
+      <div class="orederTotalPrice flex justify-end items-center">
+        <span class="totalPrices font-Red_Hat_Text text-[1.8rem]">$46.50</span>
+      </div>
+      </div>
+      <div class="desk min-w-[350px] flex items-center justify-center space-x-[6px] text-Rose900 bg-Rose50 py-[15px] px-[30px]">
+        <img class="size-[25px]" src="assets/images/icon-carbon-neutral.svg" alt="no internet">
+        <p>This is a carbon-neutral delivery</p>
+      </div>
+      <div class="btnConfirmContainer flex items-center justify-center">
+        <button class="btn-confirm font-bold min-w-[350px] h-[60px] rounded-full">Confirm Order</button>
+      </div>
+
+      </div>
+
+
+
+    </div>
+  </div>
+
+
+  </div>
+</body>
+</html>
