@@ -6,7 +6,9 @@
 
 Thanks for checking out this front-end coding challenge.
 
-[demo](https://raw.githack.com/Amir-mohammad-ahmady-1234/Product-list-with-cart/main/index.html)
+# live site:
+* [demo (with raw.githack.com)](https://raw.githack.com/Amir-mohammad-ahmady-1234/Product-list-with-cart/main/index.html)
+* [demo (with github pages)](https://amir-mohammad-ahmady-1234.github.io/Product-list-with-cart/)<br><br><br>
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
